@@ -5,7 +5,7 @@ import java.util.HashMap;
 // 该程序的对数器跑不过，你能发现bug在哪吗？
 public class Code01_TrieTree {
 
-	public static class Node1 {
+	private static class Node1 {
 		public int pass;
 		public int end;
 		public Node1[] nexts;
