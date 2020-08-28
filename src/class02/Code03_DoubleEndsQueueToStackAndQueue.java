@@ -6,7 +6,7 @@ import java.util.Stack;
 
 public class Code03_DoubleEndsQueueToStackAndQueue {
 
-	public static class Node<T> {
+	private static class Node<T> {
 		public T value;
 		public Node<T> last;
 		public Node<T> next;

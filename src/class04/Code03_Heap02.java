@@ -89,7 +89,7 @@ public class Code03_Heap02 {
 
 	}
 
-	public static class Student {
+	private static class Student {
 		public int classNo;
 		public int age;
 		public int id;

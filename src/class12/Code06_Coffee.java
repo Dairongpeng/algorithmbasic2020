@@ -57,7 +57,7 @@ public class Code06_Coffee {
 	}
 
 	// 方法二：稍微好一点的解法
-	public static class Machine {
+	private static class Machine {
 		public int timePoint;
 		public int workTime;
 

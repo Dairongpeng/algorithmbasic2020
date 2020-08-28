@@ -6,7 +6,7 @@ import java.util.HashSet;
 
 public class Code07_lowestAncestor {
 
-	public static class Node {
+	private static class Node {
 		public int value;
 		public Node left;
 		public Node right;

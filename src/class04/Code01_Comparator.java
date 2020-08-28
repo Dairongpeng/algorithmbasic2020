@@ -7,7 +7,7 @@ import java.util.TreeSet;
 
 public class Code01_Comparator {
 
-	public static class Student {
+	private static class Student {
 		public String name;
 		public int id;
 		public int age;

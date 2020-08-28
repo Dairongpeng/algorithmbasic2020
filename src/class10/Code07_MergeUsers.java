@@ -6,7 +6,7 @@ import java.util.Stack;
 
 public class Code07_MergeUsers {
 
-	public static class Node<V> {
+	private static class Node<V> {
 		V value;
 
 		public Node(V v) {

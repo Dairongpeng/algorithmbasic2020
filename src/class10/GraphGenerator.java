@@ -1,6 +1,6 @@
 package class10;
 
-public class GraphGenerator {
+class GraphGenerator {
 
 	// matrix 所有的边
 	// N*3 的矩阵

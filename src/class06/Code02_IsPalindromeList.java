@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class Code02_IsPalindromeList {
 
-	public static class Node {
+	private static class Node {
 		public int value;
 		public Node next;
 

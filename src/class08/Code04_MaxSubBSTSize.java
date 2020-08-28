@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Code04_MaxSubBSTSize {
 
-	public static class Node {
+	private static class Node {
 		public int value;
 		public Node left;
 		public Node right;

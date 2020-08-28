@@ -4,16 +4,10 @@ public class Code05_PalindromeSubsequence {
 
 	public static int lcse(char[] str1, char[] str2) {
 		
-		
-		
-		
 		int[][] dp = new int[str1.length][str2.length];
-		
-		
-		
+
 		dp[0][0] = str1[0] == str2[0] ? 1 : 0;
-		
-		
+
 		for (int i = 1; i < str1.length; i++) {
 			dp[i][0] = Math.max(dp[i - 1][0], str1[i] == str2[0] ? 1 : 0);
 		}

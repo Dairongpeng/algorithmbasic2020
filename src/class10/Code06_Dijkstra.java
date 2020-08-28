@@ -69,7 +69,7 @@ public class Code06_Dijkstra {
 		private HashMap<Node, Integer> distanceMap;
 		private int size; // 堆上有多少个点
 
-		public NodeHeap(int size) {
+		private NodeHeap(int size) {
 			nodes = new Node[size];
 			heapIndexMap = new HashMap<>();
 			distanceMap = new HashMap<>();

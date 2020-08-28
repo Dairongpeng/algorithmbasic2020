@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Code09_MaxHappy {
 
-	public static class Employee {
+	private static class Employee {
 		public int happy;
 		public List<Employee> nexts;
 

@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Code04_CopyListWithRandom {
 
-	public static class Node {
+	private static class Node {
 		public int value;
 		public Node next;
 		public Node rand;

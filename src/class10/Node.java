@@ -3,7 +3,7 @@ package class10;
 import java.util.ArrayList;
 
 // 点结构的描述  A  0
-public class Node {
+class Node {
 	public int value;
 	public int in;
 	public int out;

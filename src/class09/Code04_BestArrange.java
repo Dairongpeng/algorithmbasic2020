@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 public class Code04_BestArrange {
 
-	public static class Program {
+	private static class Program {
 		public int start;
 		public int end;
 

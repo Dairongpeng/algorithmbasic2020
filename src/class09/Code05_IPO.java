@@ -23,7 +23,7 @@ public class Code05_IPO {
 		return W;
 	}
 
-	public static class Program {
+	private static class Program {
 		public int p;
 		public int c;
 

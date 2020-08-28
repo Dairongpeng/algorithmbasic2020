@@ -2,7 +2,7 @@ package class07;
 
 public class Code07_SuccessorNode {
 
-	public static class Node {
+	private static class Node {
 		public int value;
 		public Node left;
 		public Node right;

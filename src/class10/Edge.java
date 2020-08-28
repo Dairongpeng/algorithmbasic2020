@@ -1,6 +1,6 @@
 package class10;
 
-public class Edge {
+class Edge {
 	public int weight;
 	public Node from;
 	public Node to;
